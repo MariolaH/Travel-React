@@ -1,4 +1,5 @@
 import './App.css';
+import ImageFour from './components/ImageFour';
 import ImageOne from './components/ImageOne';
 import ImageThree from './components/ImageThree';
 import ImageTwo from './components/ImageTwo';
@@ -14,6 +15,8 @@ function App() {
     <ImageTwo />
     <TextBox />
     <ImageThree />
+    <TextBox />
+    <ImageFour />
     </div>
   );
 }
