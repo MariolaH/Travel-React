@@ -1,6 +1,9 @@
-    .image {
-        height: auto;
-        min-height: 100vh;
+ @media (max-width: 768px) {
+      .image {
+        max-height: 40vh;
+      }
+      .image1 {
+        max-height: 60vh;
       }
     
       .content {
@@ -20,6 +23,7 @@
       .text-box {
         padding: 2rem 1rem;
       }
+    }
     
 
 body {
@@ -38,8 +42,13 @@ code {
 
 .image {
   position: relative ;
-  height: 180vh;
+  height: 160vh;
 }
+
+/* .image1 {
+  position: relative ;
+  height: 180vh;
+} */
 
 .content {
   display: flex;
@@ -74,9 +83,10 @@ h2 {
   justify-content: center;
   padding: 3rem 1rem;
   /* text-align: justify; */
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 li {
   list-style-type: none;
-  font-size: 1.3rem;
 }
