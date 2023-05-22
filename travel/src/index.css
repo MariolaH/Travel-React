@@ -32,7 +32,7 @@ code {
   color: white;
   padding: 1rem;
   font-size: 1.5rem;
-letter-spacing: 10px;
+letter-spacing: 20px;
 }
 
 h3 {
@@ -41,11 +41,18 @@ h3 {
   font: 1.3rem;
   text-align: center;
 }
+h2 {
+  text-transform: uppercase;
+}
 
 .text-box {
   text-align: center;
   justify-content: center;
   padding: 3rem 1rem;
   /* text-align: justify; */
+}
 
+li {
+  list-style-type: none;
+  font-size: 1.3rem;
 }
