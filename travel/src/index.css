@@ -2,6 +2,13 @@
       .image {
         max-height: 60vh;
       }
+      .text-box {
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  /* text-align: justify; */
+  font-size: 1.3rem;
+}
      
     
       .content {
