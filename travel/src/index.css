@@ -1,12 +1,12 @@
  @media (max-width: 768px) {
       .image {
-        max-height: 40vh;
+        max-height: 60vh;
       }
      
     
       .content {
         position: relative;
-        height: auto;
+        /* height: auto; */
       }
     
       .content span.img-text {
@@ -18,9 +18,9 @@
         font-size: 1rem;
       }
     
-      .text-box {
+      /* .text-box {
         padding: 1rem;
-      }
+      } */
     }
     
 @media (max-width: 768px) {
@@ -38,6 +38,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(37, 118, 162, 0.231);
 }
 
 code {

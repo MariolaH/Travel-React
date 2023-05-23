@@ -16,8 +16,7 @@ export const TextBox3 = () => {
         </li>
         <br />
         <li>
-          Krka National Park: Located in central Dalmatia, Krka National Park is
-          renowned for its series of stunning waterfalls
+        Located in central Dalmatia, Krka National Park is renowned for its series of stunning waterfalls
         </li>
       </ul>
     </div>

@@ -10,8 +10,7 @@ export const TextBox2 = () => {
         </li>
         <br />
         <li>
-          Plitvice Lakes National Park: Croatia is home to the spectacular
-          Plitvice Lakes National Park, a UNESCO World Heritage Site
+          Croatia is home to the spectacular Plitvice Lakes National Park, a UNESCO World Heritage Site
         </li>
         <br />
         <li>
