@@ -3,7 +3,7 @@ import React from 'react'
 export const TextBox = () => {
   return (
     <div className="text-box">
-      <h2>Explore</h2>
+      <h2>Dobrodošli... Welcome</h2>
       <br />
       <ul>
         <li>Croatia is located in Southeast Europe</li>
