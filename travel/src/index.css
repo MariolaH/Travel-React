@@ -3,8 +3,7 @@
   .image {
     position: relative;
     height: auto; /* Change from 160vh to auto */
-    max-height: 55vh;
-    overscroll-behavior: none;
+    /* max-height: 55vh; */
   }
   .text-box {
   text-align: center;
