@@ -2,8 +2,8 @@
 @media (max-width: 768px) {
   .image {
     position: relative;
-    /* height: auto; Change from 160vh to auto */
-    max-height: 55vh;
+    height: auto;
+    /* max-height: 55vh; */
   }
   .text-box {
   text-align: center;
