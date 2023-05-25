@@ -4,6 +4,7 @@
     position: relative;
     height: auto; /* Change from 160vh to auto */
     max-height: 55vh;
+    overscroll-behavior: none;
   }
   .text-box {
   text-align: center;
