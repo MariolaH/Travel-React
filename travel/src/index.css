@@ -26,7 +26,7 @@
 }
     
 .content span.img-text {
-  
+  padding: 0.1rem;
         letter-spacing: 10px;
         align-self: flex-start;
         margin-top: 1rem;
@@ -55,8 +55,8 @@ code {
 .image {
   position: relative ;
   /* height: 160vh; */
-   height: 110vh; /* Change from 160vh to 100vh */
-  overflow: hidden;
+   height: 120vh; /* Change from 160vh to 100vh */
+  /* overflow: hidden; */
 }
 
 /* .image1 {
