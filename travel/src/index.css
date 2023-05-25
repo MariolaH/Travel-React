@@ -55,7 +55,7 @@ code {
 .image {
   position: relative ;
   /* height: 160vh; */
-   height: 120vh; /* Change from 160vh to 100vh */
+   height: 110vh; /* Change from 160vh to 100vh */
   /* overflow: hidden; */
 }
 
