@@ -3,12 +3,12 @@
   .image {
     position: relative;
     height: auto; /* Change from 160vh to auto */
-    max-height: 60vh;
+    max-height: 55vh;
   }
   .text-box {
   text-align: center;
   justify-content: center;
-  padding: 1rem 1rem;
+  /* padding: 1rem 1rem; */
   /* text-align: justify; */
   font-size: 1.3rem;
 }
@@ -25,26 +25,14 @@
 }
     
 .content span.img-text {
-        font-size: 1rem;
+        font-size: 0.5rem;
         letter-spacing: 10px;
       }
     
 h3 {
         font-size: 1rem;
       }
-    
-      /* .text-box {
-        padding: 1rem;
-      } */
     }
-    
-@media (max-width: 768px) {
-  .content span.img-text {
-    font-size: 1rem;
-    letter-spacing: 10px;
-    padding: 0.5rem;
-  }
-}
 
 body {
   margin: 0;
