@@ -1,8 +1,8 @@
 import { Parallax } from "react-parallax";
 import Dubrovnik5 from "../images/cliff bar2.png";
 
-const ImageFour = () => (
-  <Parallax className="image" bgImage={Dubrovnik5} strength={250}></Parallax>
+const ImageFive = () => (
+  <Parallax className="image" bgImage={Dubrovnik5} strength={250} bgImageAlt="Image of a cliff bar outside the walls of Dobrovnik"></Parallax>
 );
 
-export default ImageFour;
+export default ImageFive;

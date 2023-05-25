@@ -8,7 +8,7 @@ export const TextBox4 = () => {
         <br />
         <li>
           It is a unique bar located outside the city walls, on the cliffs
-          overlooking the Adriatic Sea.
+          overlooking the Adriatic Sea
         </li>
         <br />
         <li>

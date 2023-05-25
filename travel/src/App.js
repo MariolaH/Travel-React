@@ -9,6 +9,8 @@ import { TextBox3 } from "./components/TextBox3";
 import { TextBox5 } from "./components/TextBox5";
 import { TextBox2 } from "./components/Textbox2";
 import { TextBox4 } from "./components/TextBox4";
+import { TextBox6 } from "./components/TextBox6";
+import ImageSix from "./components/ImageSix";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <ImageFour />
       <TextBox4 />
       <ImageFive />
+      <TextBox6 />
+      <ImageSix />
       <TextBox5 />
     </div>
   );
