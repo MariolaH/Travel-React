@@ -2,13 +2,14 @@
 @media (max-width: 768px) {
   .image {
     position: relative;
-    height: auto;
-    /* max-height: 55vh; */
+    /* height: auto; */
+    max-height: 35vh;
+
   }
   .text-box {
   text-align: center;
   justify-content: center;
-  padding: 1rem 1rem;
+  padding: 0.1rem 0.1rem;
   /* text-align: justify; */
   font-size: 1.3rem;
 }
@@ -21,12 +22,14 @@
   position: absolute;
   height: 100vh;
   width: 100%;
-  overflow: visible; /* Add this line */
+  overflow: visible; 
 }
     
 .content span.img-text {
-        font-size: 0.5rem;
+  
         letter-spacing: 10px;
+        align-self: flex-start;
+        margin-top: 1rem;
       }
     
 h3 {
@@ -68,7 +71,7 @@ code {
   position: absolute;
   height: 100vh;
   width: 100%;
-  overflow: visible
+  overflow: hidden;
 }
 
 .content span.img-text {
@@ -96,15 +99,6 @@ h2 {
   padding: 3rem 1rem;
   /* text-align: justify; */
   font-size: 1.3rem;
-}
-
-.text-box2 {
-  text-align: center;
-  justify-content: center;
-  padding: 3rem 1rem;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-
 }
 
 li {

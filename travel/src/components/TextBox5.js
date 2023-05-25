@@ -2,7 +2,7 @@ import React from "react";
 
 export const TextBox5 = () => {
   return (
-    <div className="text-box2">
+    <div className="text-box">
       <p>Exciting updates coming soon!</p>
 
       <a
