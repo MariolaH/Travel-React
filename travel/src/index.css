@@ -1,8 +1,11 @@
- @media (max-width: 768px) {
-      .image {
-        max-height: 60vh;
-      }
-      .text-box {
+
+@media (max-width: 768px) {
+  .image {
+    position: relative;
+    height: auto; /* Change from 160vh to auto */
+    max-height: 60vh;
+  }
+  .text-box {
   text-align: center;
   justify-content: center;
   padding: 1rem 1rem;
@@ -11,17 +14,22 @@
 }
      
     
-      .content {
-        position: relative;
-        /* height: auto; */
-      }
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: visible; /* Add this line */
+}
     
-      .content span.img-text {
+.content span.img-text {
         font-size: 1rem;
         letter-spacing: 10px;
       }
     
-      h3 {
+h3 {
         font-size: 1rem;
       }
     
@@ -55,7 +63,9 @@ code {
 
 .image {
   position: relative ;
-  height: 160vh;
+  /* height: 160vh; */
+   height: 110vh; /* Change from 160vh to 100vh */
+  overflow: hidden;
 }
 
 /* .image1 {
