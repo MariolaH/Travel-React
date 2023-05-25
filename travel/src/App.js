@@ -3,10 +3,12 @@ import ImageFour from "./components/ImageFour";
 import ImageOne from "./components/ImageOne";
 import ImageThree from "./components/ImageThree";
 import ImageTwo from "./components/ImageTwo";
+import ImageFive from "./components/ImageFive";
 import { TextBox } from "./components/TextBox";
 import { TextBox3 } from "./components/TextBox3";
 import { TextBox5 } from "./components/TextBox5";
 import { TextBox2 } from "./components/Textbox2";
+import { TextBox4 } from "./components/TextBox4";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <ImageThree />
       <TextBox3 />
       <ImageFour />
+      <TextBox4 />
+      <ImageFive />
       <TextBox5 />
     </div>
   );
